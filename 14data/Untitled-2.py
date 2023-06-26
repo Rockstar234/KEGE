@@ -1,0 +1,1 @@
+print(*[n for n in list(range(16)) if n%3==1 and (n//3)%3==1], sep=', ')
